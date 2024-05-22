@@ -43,6 +43,18 @@
     <Filter Include="Spark\Source Files\Maths">
       <UniqueIdentifier>{bea89827-0573-40f6-a126-491f00ef309a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Spark\Header Files\Core">
+      <UniqueIdentifier>{2a24a102-5e05-4d56-ab96-c680142d8264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spark\Source Files\Core">
+      <UniqueIdentifier>{07c0e605-192c-443f-9917-b94baa28310b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spark\Header Files\Gameplay">
+      <UniqueIdentifier>{510732f7-36a0-46cc-9bf2-1b8ddcfbf765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spark\Source Files\Gameplay">
+      <UniqueIdentifier>{7c395840-6907-4516-b53c-d883232fd2c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Xml Include="assets\config.xml">
@@ -80,6 +92,15 @@
     <ClCompile Include="Spark\Maths\MathFunctions.cpp">
       <Filter>Spark\Source Files\Maths</Filter>
     </ClCompile>
+    <ClCompile Include="Spark\Core\Application.cpp">
+      <Filter>Spark\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Spark\Core\Screen.cpp">
+      <Filter>Spark\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Spark\Gameplay\GameInstance.cpp">
+      <Filter>Spark\Source Files\Gameplay</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Spark\Utility\Config.h">
@@ -108,6 +129,18 @@
     </ClInclude>
     <ClInclude Include="Spark\Maths\MathFunctions.h">
       <Filter>Spark\Header Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Spark\Core\Application.h">
+      <Filter>Spark\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Spark\Core\Screen.h">
+      <Filter>Spark\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Spark\Gameplay\GameInstance.h">
+      <Filter>Spark\Header Files\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Spark\Common.h">
+      <Filter>Spark\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
