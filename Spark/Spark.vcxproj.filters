@@ -5,17 +5,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Spark">
-      <UniqueIdentifier>{4b0852c0-edb0-4607-afac-188a0221d74c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Spark\Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Spark\Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="Game">
       <UniqueIdentifier>{cc53b80d-5bc9-4d33-92cd-fa551fef88cd}</UniqueIdentifier>
     </Filter>
@@ -25,35 +14,46 @@
     <Filter Include="Game\Source Files">
       <UniqueIdentifier>{ce2a8a63-8e33-4ae5-9ea7-5f0ad4ba1277}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Spark\Header Files\Utility">
-      <UniqueIdentifier>{93c84bd3-5e88-41f7-91b1-9d453ec10a1a}</UniqueIdentifier>
+    <Filter Include="Crispy-Fishstick">
+      <UniqueIdentifier>{4b0852c0-edb0-4607-afac-188a0221d74c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Spark\Source Files\Utility">
+    <Filter Include="Crispy-Fishstick\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Crispy-Fishstick\Source Files\Utility">
       <UniqueIdentifier>{a816b53d-a0fb-4725-a2c1-d834cca97183}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Spark\Header Files\Level">
-      <UniqueIdentifier>{0b0d9e2f-1cbe-413c-8994-be8bd202a842}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Spark\Source Files\Level">
+    <Filter Include="Crispy-Fishstick\Source Files\Level">
       <UniqueIdentifier>{1f705f70-60b1-4e9e-a862-b377f0e91af9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Spark\Header Files\Maths">
-      <UniqueIdentifier>{5baa9bf4-8fcb-4c55-a93f-5728c15e3d50}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Spark\Source Files\Maths">
+    <Filter Include="Crispy-Fishstick\Source Files\Maths">
       <UniqueIdentifier>{bea89827-0573-40f6-a126-491f00ef309a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Spark\Header Files\Core">
-      <UniqueIdentifier>{2a24a102-5e05-4d56-ab96-c680142d8264}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Spark\Source Files\Core">
+    <Filter Include="Crispy-Fishstick\Source Files\Core">
       <UniqueIdentifier>{07c0e605-192c-443f-9917-b94baa28310b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Spark\Header Files\Gameplay">
-      <UniqueIdentifier>{510732f7-36a0-46cc-9bf2-1b8ddcfbf765}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Spark\Source Files\Gameplay">
+    <Filter Include="Crispy-Fishstick\Source Files\Gameplay">
       <UniqueIdentifier>{7c395840-6907-4516-b53c-d883232fd2c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crispy-Fishstick\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Crispy-Fishstick\Header Files\Utility">
+      <UniqueIdentifier>{93c84bd3-5e88-41f7-91b1-9d453ec10a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crispy-Fishstick\Header Files\Level">
+      <UniqueIdentifier>{0b0d9e2f-1cbe-413c-8994-be8bd202a842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crispy-Fishstick\Header Files\Maths">
+      <UniqueIdentifier>{5baa9bf4-8fcb-4c55-a93f-5728c15e3d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crispy-Fishstick\Header Files\Core">
+      <UniqueIdentifier>{2a24a102-5e05-4d56-ab96-c680142d8264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crispy-Fishstick\Header Files\Gameplay">
+      <UniqueIdentifier>{510732f7-36a0-46cc-9bf2-1b8ddcfbf765}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -66,81 +66,87 @@
       <Filter>Game\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Spark\Utility\Config.cpp">
-      <Filter>Spark\Source Files\Utility</Filter>
+      <Filter>Crispy-Fishstick\Source Files\Utility</Filter>
     </ClCompile>
     <ClCompile Include="Spark\Utility\ConfigValue.cpp">
-      <Filter>Spark\Source Files\Utility</Filter>
+      <Filter>Crispy-Fishstick\Source Files\Utility</Filter>
     </ClCompile>
     <ClCompile Include="Spark\Utility\StringUtils.cpp">
-      <Filter>Spark\Source Files\Utility</Filter>
+      <Filter>Crispy-Fishstick\Source Files\Utility</Filter>
     </ClCompile>
     <ClCompile Include="Spark\Level\ILevelBase.cpp">
-      <Filter>Spark\Source Files\Level</Filter>
+      <Filter>Crispy-Fishstick\Source Files\Level</Filter>
     </ClCompile>
     <ClCompile Include="Spark\Level\LevelManager.cpp">
-      <Filter>Spark\Source Files\Level</Filter>
+      <Filter>Crispy-Fishstick\Source Files\Level</Filter>
     </ClCompile>
     <ClCompile Include="Spark\Maths\Mat3.cpp">
-      <Filter>Spark\Source Files\Maths</Filter>
+      <Filter>Crispy-Fishstick\Source Files\Maths</Filter>
     </ClCompile>
     <ClCompile Include="Spark\Maths\Vec2.cpp">
-      <Filter>Spark\Source Files\Maths</Filter>
+      <Filter>Crispy-Fishstick\Source Files\Maths</Filter>
     </ClCompile>
     <ClCompile Include="Spark\Maths\Vec3.cpp">
-      <Filter>Spark\Source Files\Maths</Filter>
+      <Filter>Crispy-Fishstick\Source Files\Maths</Filter>
     </ClCompile>
     <ClCompile Include="Spark\Maths\MathFunctions.cpp">
-      <Filter>Spark\Source Files\Maths</Filter>
+      <Filter>Crispy-Fishstick\Source Files\Maths</Filter>
     </ClCompile>
     <ClCompile Include="Spark\Core\Application.cpp">
-      <Filter>Spark\Source Files\Core</Filter>
+      <Filter>Crispy-Fishstick\Source Files\Core</Filter>
     </ClCompile>
     <ClCompile Include="Spark\Core\Screen.cpp">
-      <Filter>Spark\Source Files\Core</Filter>
+      <Filter>Crispy-Fishstick\Source Files\Core</Filter>
     </ClCompile>
     <ClCompile Include="Spark\Gameplay\GameInstance.cpp">
-      <Filter>Spark\Source Files\Gameplay</Filter>
+      <Filter>Crispy-Fishstick\Source Files\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TestGameInstance.cpp">
+      <Filter>Game\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Spark\Utility\Config.h">
-      <Filter>Spark\Header Files\Utility</Filter>
+      <Filter>Crispy-Fishstick\Header Files\Utility</Filter>
     </ClInclude>
     <ClInclude Include="Spark\Utility\ConfigValue.h">
-      <Filter>Spark\Header Files\Utility</Filter>
+      <Filter>Crispy-Fishstick\Header Files\Utility</Filter>
     </ClInclude>
     <ClInclude Include="Spark\Utility\StringUtils.h">
-      <Filter>Spark\Header Files\Utility</Filter>
+      <Filter>Crispy-Fishstick\Header Files\Utility</Filter>
     </ClInclude>
     <ClInclude Include="Spark\Level\ILevelBase.h">
-      <Filter>Spark\Header Files\Level</Filter>
+      <Filter>Crispy-Fishstick\Header Files\Level</Filter>
     </ClInclude>
     <ClInclude Include="Spark\Level\LevelManager.h">
-      <Filter>Spark\Header Files\Level</Filter>
+      <Filter>Crispy-Fishstick\Header Files\Level</Filter>
     </ClInclude>
     <ClInclude Include="Spark\Maths\Mat3.h">
-      <Filter>Spark\Header Files\Maths</Filter>
+      <Filter>Crispy-Fishstick\Header Files\Maths</Filter>
     </ClInclude>
     <ClInclude Include="Spark\Maths\Vec2.h">
-      <Filter>Spark\Header Files\Maths</Filter>
+      <Filter>Crispy-Fishstick\Header Files\Maths</Filter>
     </ClInclude>
     <ClInclude Include="Spark\Maths\Vec3.h">
-      <Filter>Spark\Header Files\Maths</Filter>
+      <Filter>Crispy-Fishstick\Header Files\Maths</Filter>
     </ClInclude>
     <ClInclude Include="Spark\Maths\MathFunctions.h">
-      <Filter>Spark\Header Files\Maths</Filter>
+      <Filter>Crispy-Fishstick\Header Files\Maths</Filter>
     </ClInclude>
     <ClInclude Include="Spark\Core\Application.h">
-      <Filter>Spark\Header Files\Core</Filter>
+      <Filter>Crispy-Fishstick\Header Files\Core</Filter>
     </ClInclude>
     <ClInclude Include="Spark\Core\Screen.h">
-      <Filter>Spark\Header Files\Core</Filter>
+      <Filter>Crispy-Fishstick\Header Files\Core</Filter>
     </ClInclude>
     <ClInclude Include="Spark\Gameplay\GameInstance.h">
-      <Filter>Spark\Header Files\Gameplay</Filter>
+      <Filter>Crispy-Fishstick\Header Files\Gameplay</Filter>
     </ClInclude>
     <ClInclude Include="Spark\Common.h">
-      <Filter>Spark\Header Files</Filter>
+      <Filter>Crispy-Fishstick\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TestGameInstance.h">
+      <Filter>Game\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -24,6 +24,7 @@
     <ProjectGuid>{7b647011-cd07-4cb2-9b80-5f1c7d2b3cbc}</ProjectGuid>
     <RootNamespace>Soarks</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Crispy-Fishstick</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -167,6 +168,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game\main.cpp" />
+    <ClCompile Include="Game\TestGameInstance.cpp" />
     <ClCompile Include="Spark\Core\Application.cpp" />
     <ClCompile Include="Spark\Core\Screen.cpp" />
     <ClCompile Include="Spark\Gameplay\GameInstance.cpp" />
@@ -181,6 +183,7 @@
     <ClCompile Include="Spark\Utility\StringUtils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Game\TestGameInstance.h" />
     <ClInclude Include="Spark\Common.h" />
     <ClInclude Include="Spark\Core\Application.h" />
     <ClInclude Include="Spark\Core\Screen.h" />

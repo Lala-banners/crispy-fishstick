@@ -2,7 +2,6 @@
 #pragma region Pre-declarations
 class Config;
 class Screen;
-class Application;
 class LevelManager;
 #pragma endregion
 
@@ -10,8 +9,9 @@ class LevelManager;
 class GameInstance
 {
 	// Specify friend (if predeclared, no need for [friend class name])
-	// best practise anyway 
+	// best practise anyway
 	friend class Application;
+	friend class LevelManager;
 
 	// Marked for delete (only in public) to save memory being moved or copied by functions that are not being used.
 public:
@@ -41,7 +41,7 @@ private:
 	LevelManager* m_levelManager;
 
 private:
-	void Init(Application* _app);
+	void Init();
 	void Tick(float _dt) const;			// Calls LevelManager Tick()
 	void Render() const;					// Calls LevelManager Render()
 };

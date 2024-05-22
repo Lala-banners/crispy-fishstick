@@ -2,12 +2,13 @@
 
 #include <ranges>
 
-//#include "Application.h"
 #include "ILevelBase.h"
+#include "Spark/Gameplay/GameInstance.h"
 
-LevelManager::LevelManager(Application* _app)
-	: m_app{ _app }
+LevelManager::LevelManager(GameInstance* _game)
 {
+	m_config = _game->GetConfig();
+	m_screen = _game->GetScreen();
 }
 
 LevelManager::~LevelManager()
@@ -84,13 +85,12 @@ void LevelManager::AddLevel(ILevelBase* _level)
 	_level->m_levelManager = this;
 }
 
-Application* LevelManager::GetApp() const
-{
-	return m_app;
-}
-
 Config* LevelManager::GetConfig() const
 {
-	//return m_app->GetConfig();
-	return nullptr;
+	return m_config;
+}
+
+Screen* LevelManager::GetScreen() const
+{
+	return m_screen;
 }

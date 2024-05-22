@@ -33,9 +33,9 @@ LevelManager* GameInstance::GetLevelManager() const
 	return m_levelManager; // Returns pointer to LevelManager*
 }
 
-void GameInstance::Init(Application* _app)
+void GameInstance::Init()
 {
-	m_levelManager = new LevelManager(_app);
+	m_levelManager = new LevelManager(this);
 }
 
 void GameInstance::Tick(float _dt) const
