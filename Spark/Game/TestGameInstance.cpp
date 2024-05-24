@@ -2,9 +2,18 @@
 
 #include <iostream>
 
+#include "LevelNames.h"
+#include "TestLevel.h"
+#include "Spark/Level/LevelManager.h"
+
 void TestGameInstance::BeginPlay()
 {
-	std::cout << "Begin play!\n";
+	if(LevelManager* levelMan = GetLevelManager())
+	{
+		levelMan->AddLevel(new TestLevel);
+
+		levelMan->OpenLevel(TEST_LEVEL);
+	}
 }
 
 void TestGameInstance::EndPlay()

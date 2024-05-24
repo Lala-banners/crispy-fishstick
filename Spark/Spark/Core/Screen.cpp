@@ -14,7 +14,7 @@ void Screen::Quit()
 }
 
 Screen::Screen(Config* _config)
-	: m_config{ _config }, m_width{ 0 }, m_height{ 0 }, m_clearColor{ }, m_quit{ false }
+	: m_config{ _config }, m_width{ 0 }, m_height{ 0 }, m_clearColor{ LIME }, m_quit{ false }
 {
 }
 

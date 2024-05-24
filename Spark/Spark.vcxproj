@@ -168,7 +168,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game\main.cpp" />
+    <ClCompile Include="Game\TestActor.cpp" />
     <ClCompile Include="Game\TestGameInstance.cpp" />
+    <ClCompile Include="Game\TestLevel.cpp" />
+    <ClCompile Include="Spark\Actors\Actor.cpp" />
+    <ClCompile Include="Spark\Actors\ActorWorld.cpp" />
     <ClCompile Include="Spark\Core\Application.cpp" />
     <ClCompile Include="Spark\Core\Screen.cpp" />
     <ClCompile Include="Spark\Gameplay\GameInstance.cpp" />
@@ -183,7 +187,12 @@
     <ClCompile Include="Spark\Utility\StringUtils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Game\LevelNames.h" />
+    <ClInclude Include="Game\TestActor.h" />
     <ClInclude Include="Game\TestGameInstance.h" />
+    <ClInclude Include="Game\TestLevel.h" />
+    <ClInclude Include="Spark\Actors\Actor.h" />
+    <ClInclude Include="Spark\Actors\ActorWorld.h" />
     <ClInclude Include="Spark\Common.h" />
     <ClInclude Include="Spark\Core\Application.h" />
     <ClInclude Include="Spark\Core\Screen.h" />

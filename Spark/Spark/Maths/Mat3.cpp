@@ -162,7 +162,7 @@ Mat3 Mat3::CreateTransform(const Vec2& _trans, const float _rot, const Vec2* _sc
 	const Mat3 zRotMat = CreateZRotation(_rot);
 	const Mat3 rotMat = xRotMat * yRotMat * zRotMat;
 
-	return transMat * rotMat * scaleMat;
+	return scaleMat * rotMat * transMat;
 }
 
 Mat3 Mat3::CreateTranslation(const Vec2& _trans)

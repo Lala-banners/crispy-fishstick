@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Config>
-  <Categories>
-    <Category title="window">
-      <Value name="width" value="1080" type="int"/>
-      <Value name="height" value="720" type="int"/>
-      <Value name="clrCol" value="245,245,245,255" type="color"/>
-      <Value name="isFullscreen" value="false" type="bool"/>
-    </Category>
-    <Category title="application">
-      <Value name="title" value="Crispy-Fishstick Game" type="string"/>
-    </Category>
-  </Categories>
+	<Categories>
+		<Category title="window">
+			<Value name="width" value="1080" type="int"/>
+			<Value name="height" value="720" type="int"/>
+			<Value name="clrCol" value="133,255,0,255" type="color"/>
+			<Value name="isFullscreen" value="false" type="bool"/>
+		</Category>
+		<Category title="application">
+			<Value name="title" value="Crispy-Fishstick Game" type="string"/>
+		</Category>
+		<Category title="world">
+			<Value name="offsetFactor" value="0.5,0.5" type="vector"/>
+			<Value name="scale" value="16" type="float"/>
+		</Category>
+		<Category title="player">
+			<Value name="speed" value="5" type="float"/>
+		</Category>
+	</Categories>
 </Config>
